@@ -1,0 +1,150 @@
+<svg class="shop-scene" viewBox="0 0 860 540" role="img" aria-labelledby="scene-title scene-description">
+                <title id="scene-title">Isometric view of the Bean and Machine coffee shop</title>
+                <desc id="scene-description">Seven animated coffee shop agents stand at the counter, espresso machine, pantry, quality-check table, rinse station, register, and shop entrance.</desc>
+                <defs>
+                  <linearGradient id="backWall" x2="0" y2="1"><stop stop-color="#29312e"/><stop offset="1" stop-color="#202724"/></linearGradient>
+                  <linearGradient id="floor" x2="0" y2="1"><stop stop-color="#c5a77f"/><stop offset="1" stop-color="#896f56"/></linearGradient>
+                  <linearGradient id="counter" x2="0" y2="1"><stop stop-color="#d5aa80"/><stop offset="1" stop-color="#a97a57"/></linearGradient>
+                  <linearGradient id="coffeeMachine" x2="0" y2="1"><stop stop-color="#b4b1a2"/><stop offset="1" stop-color="#656861"/></linearGradient>
+                  <pattern id="tiles" width="72" height="42" patternUnits="userSpaceOnUse" patternTransform="skewX(-35)">
+                    <path d="M0 0H72V42H0Z" fill="none" stroke="#685943" stroke-width="1" opacity=".34"/>
+                  </pattern>
+                  <filter id="softShadow" x="-35%" y="-35%" width="180%" height="180%"><feGaussianBlur stdDeviation="7"/></filter>
+                  <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="5"/></filter>
+                </defs>
+                <ellipse cx="433" cy="483" rx="360" ry="38" fill="#171c19" opacity=".18" filter="url(#softShadow)"/>
+                <polygon points="95,152 434,41 787,165 446,285" fill="url(#backWall)" stroke="#414641" stroke-width="2"/>
+                <polygon points="95,152 446,285 446,477 95,345" fill="#343934"/>
+                <polygon points="446,285 787,165 787,359 446,477" fill="#282d29"/>
+                <polygon points="95,345 446,477 787,359 434,232" fill="url(#floor)"/>
+                <polygon points="95,345 446,477 787,359 434,232" fill="url(#tiles)" opacity=".8"/>
+                <polygon points="123,158 220,126 220,227 123,261" fill="#9c784f" stroke="#d4b68a" stroke-width="7"/>
+                <polygon points="134,164 210,139 210,218 134,245" fill="#9fb4a6"/>
+                <path d="M171 151v82M134 202h76" stroke="#dfcfb3" stroke-width="4" opacity=".85"/>
+                <circle cx="191" cy="168" r="13" fill="#e1ae6d" opacity=".45" filter="url(#glow)"/>
+                <path d="M135 211l21-13 12 5 20-21 22 17v19l-75 27z" fill="#738779"/>
+                <polygon points="272,88 409,43 409,72 272,117" fill="#181d1b"/>
+                <text x="281" y="92" fill="#e6c798" font-size="12" font-family="DM Mono, monospace" letter-spacing="3">BEANS · BREW · REPEAT</text>
+                <g opacity=".95">
+                  <polygon points="231,128 313,101 313,172 231,200" fill="#4a4031"/>
+                  <polygon points="237,133 308,110 308,164 237,187" fill="#242a26"/>
+                  <rect x="244" y="137" width="56" height="4" rx="2" fill="#c59a63"/>
+                  <circle cx="253" cy="151" r="9" fill="#805d41"/><circle cx="274" cy="145" r="10" fill="#94704e"/><circle cx="293" cy="140" r="8" fill="#72543b"/>
+                  <circle cx="252" cy="175" r="9" fill="#998065"/><circle cx="275" cy="168" r="9" fill="#7b654d"/><circle cx="295" cy="162" r="8" fill="#b08c60"/>
+                </g>
+                <polygon points="469,93 566,61 566,177 469,211" fill="#3e443d" stroke="#595d51" stroke-width="2"/>
+                <path d="M480 119l75-25M480 152l75-25M480 185l75-25" stroke="#85765f" stroke-width="5"/>
+                <g fill="#c6955a">
+                  <path d="M490 113l10-7 10 5v12l-10 5-10-5z"/><path d="M514 104l10-7 10 5v12l-10 5-10-5z"/><path d="M491 146l10-7 10 5v12l-10 5-10-5z"/><path d="M519 137l10-7 10 5v12l-10 5-10-5z"/>
+                </g>
+                <text x="478" y="204" fill="#bbb19c" font-size="10" font-family="DM Mono, monospace" letter-spacing="2">THE PANTRY</text>
+                <polygon points="321,206 534,134 710,195 496,272" fill="url(#counter)" stroke="#e1c29b" stroke-width="2"/>
+                <polygon points="321,206 496,272 496,316 321,250" fill="#76553e"/>
+                <polygon points="496,272 710,195 710,238 496,316" fill="#986e4e"/>
+                <path d="M328 215l164 61M340 209l165 61M354 203l165 61" stroke="#e3c19a" stroke-width="1" opacity=".4"/>
+                <polygon points="363,166 444,139 481,152 399,181" fill="#646861"/>
+                <polygon points="363,166 399,181 399,222 363,209" fill="#494f4a"/>
+                <polygon points="399,181 481,152 481,194 399,222" fill="url(#coffeeMachine)" stroke="#c0bba9" stroke-width="1"/>
+                <rect x="412" y="174" width="18" height="13" rx="2" transform="skewY(-20)" fill="#6f9c82"/>
+                <circle cx="452" cy="171" r="6" fill="#d2a266"/>
+                <path d="M424 204v14m32-25v14" stroke="#d7d0bc" stroke-width="3" stroke-linecap="round"/>
+                <path d="M423 215c-4 9-9 12-10 17m34-30c-4 9-8 12-10 17" stroke="#ede2cb" stroke-width="2" fill="none" opacity=".7"/>
+                <polygon points="551,163 596,148 623,157 578,173" fill="#624b38"/>
+                <polygon points="551,163 578,173 578,202 551,190" fill="#48392d"/>
+                <polygon points="578,173 623,157 623,185 578,202" fill="#74563d"/>
+                <path d="M567 162h19v12h-19z" fill="#eee0c8" transform="skewY(19)"/>
+                <path d="M583 169c8 2 9 10 2 13h-14c-7-3-6-10 1-13" fill="none" stroke="#cfc8b6" stroke-width="2"/>
+                <polygon points="565,332 672,295 739,319 632,358" fill="#d4b890"/>
+                <polygon points="565,332 632,358 632,375 565,349" fill="#a88a68"/>
+                <polygon points="632,358 739,319 739,337 632,375" fill="#94795c"/>
+                <path d="M592 342l45-16m-35 22 45-16" stroke="#f0ddbc" stroke-width="2"/>
+                <polygon points="694,241 744,223 775,234 725,253" fill="#7d503a"/>
+                <polygon points="694,241 725,253 725,292 694,279" fill="#573e32"/>
+                <polygon points="725,253 775,234 775,273 725,292" fill="#694c38"/>
+                <rect x="738" y="246" width="19" height="11" rx="2" fill="#c4a277" transform="skewY(-20)"/>
+                <circle cx="748" cy="267" r="3" fill="#e8c782"/>
+                <text x="687" y="306" fill="#b9ac92" font-size="9" font-family="DM Mono, monospace" letter-spacing="1.5">TILL</text>
+                <ellipse cx="307" cy="291" rx="26" ry="10" fill="#2b312b" opacity=".4"/>
+                <ellipse cx="336" cy="303" rx="26" ry="10" fill="#2b312b" opacity=".4"/>
+                <g class="agent agent-owner" data-agent="owner" transform="translate(280 204)">
+                  <ellipse class="agent-glow" cx="0" cy="37" rx="25" ry="14"/>
+                  <ellipse class="agent-shadow" cx="0" cy="54" rx="18" ry="7"/>
+                  <circle cx="0" cy="7" r="12" fill="#c78f6c"/><path d="M-12 5q12-19 24 0v-5q-12-13-24 0z" fill="#473329"/>
+                  <path d="M-18 25q18-13 36 0l-4 26h-28z" fill="#e9a47d"/><path d="M-18 25l-8 20 7 3 10-17m25-6 10 19-7 4-11-18" fill="#e9a47d"/>
+                  <path d="M-10 51l-2 12m21-12 2 12" stroke="#4f4438" stroke-width="5" stroke-linecap="round"/>
+                  <rect x="-28" y="-25" width="56" height="17" rx="8" fill="#202521" stroke="#e9a47d" stroke-width="1"/>
+                  <text x="0" y="-13" text-anchor="middle" fill="#f3e7d3" font-size="9" font-family="DM Mono, monospace">MARA · OWNER</text>
+                  <circle class="agent-indicator" cx="20" cy="3" r="4" fill="#87c79d"/>
+                </g>
+                <g class="agent agent-barista" data-agent="barista" transform="translate(452 211)">
+                  <ellipse class="agent-glow" cx="0" cy="37" rx="26" ry="14"/>
+                  <ellipse class="agent-shadow" cx="0" cy="54" rx="18" ry="7"/>
+                  <circle cx="0" cy="7" r="12" fill="#b97e5d"/><path d="M-12 4q12-17 24 0v-5q-12-12-24 0z" fill="#332b24"/>
+                  <path d="M-18 25q18-13 36 0l-4 26h-28z" fill="#92c7ae"/><path d="M-18 25l-8 20 7 3 10-17m25-6 10 19-7 4-11-18" fill="#92c7ae"/>
+                  <path d="M-10 51l-2 12m21-12 2 12" stroke="#51473b" stroke-width="5" stroke-linecap="round"/>
+                  <path d="M-16 30h32v4h-32z" fill="#eee1c8"/>
+                  <rect x="-34" y="-25" width="68" height="17" rx="8" fill="#202521" stroke="#92c7ae" stroke-width="1"/>
+                  <text x="0" y="-13" text-anchor="middle" fill="#f3e7d3" font-size="9" font-family="DM Mono, monospace">LEO · BARISTA</text>
+                  <circle class="agent-indicator" cx="26" cy="3" r="4" fill="#87c79d"/>
+                </g>
+                <g class="agent agent-stock" data-agent="stock" transform="translate(559 131)">
+                  <ellipse class="agent-glow" cx="0" cy="37" rx="24" ry="14"/>
+                  <ellipse class="agent-shadow" cx="0" cy="54" rx="17" ry="7"/>
+                  <circle cx="0" cy="7" r="12" fill="#d29a71"/><path d="M-12 4q12-17 24 0v-5q-12-12-24 0z" fill="#4a3828"/>
+                  <path d="M-17 25q17-13 34 0l-4 26h-26z" fill="#e7c77f"/><path d="M-17 25l-8 20 7 3 10-17m23-6 10 19-7 4-11-18" fill="#e7c77f"/>
+                  <path d="M-9 51l-2 12m20-12 2 12" stroke="#524535" stroke-width="5" stroke-linecap="round"/>
+                  <rect x="-34" y="-25" width="68" height="17" rx="8" fill="#202521" stroke="#e7c77f" stroke-width="1"/>
+                  <text x="0" y="-13" text-anchor="middle" fill="#f3e7d3" font-size="9" font-family="DM Mono, monospace">PIP · STOCK</text>
+                  <circle class="agent-indicator" cx="26" cy="3" r="4" fill="#87c79d"/>
+                </g>
+                <g class="agent agent-item_buyer" data-agent="item_buyer" transform="translate(157 286)">
+                  <ellipse class="agent-glow" cx="0" cy="37" rx="24" ry="14"/>
+                  <ellipse class="agent-shadow" cx="0" cy="54" rx="17" ry="7"/>
+                  <circle cx="0" cy="7" r="12" fill="#c58e73"/><path d="M-12 4q12-17 24 0v-5q-12-12-24 0z" fill="#392f30"/>
+                  <path d="M-17 25q17-13 34 0l-4 26h-26z" fill="#d6a5ca"/><path d="M-17 25l-8 20 7 3 10-17m23-6 10 19-7 4-11-18" fill="#d6a5ca"/>
+                  <path d="M-9 51l-2 12m20-12 2 12" stroke="#524535" stroke-width="5" stroke-linecap="round"/>
+                  <path d="M20 31l12 4v13l-12-4z" fill="#b68b65" stroke="#f0ddbc" stroke-width="1.5"/>
+                  <rect x="-45" y="-25" width="90" height="17" rx="8" fill="#202521" stroke="#d6a5ca" stroke-width="1"/>
+                  <text x="0" y="-13" text-anchor="middle" fill="#f3e7d3" font-size="8" font-family="DM Mono, monospace">IVY · ITEM BUYER</text>
+                  <circle class="agent-indicator" cx="29" cy="3" r="4" fill="#87c79d"/>
+                </g>
+                <g class="agent agent-quality" data-agent="quality" transform="translate(649 287)">
+                  <ellipse class="agent-glow" cx="0" cy="37" rx="24" ry="14"/>
+                  <ellipse class="agent-shadow" cx="0" cy="54" rx="17" ry="7"/>
+                  <circle cx="0" cy="7" r="12" fill="#b78362"/><path d="M-12 4q12-17 24 0v-5q-12-12-24 0z" fill="#453327"/>
+                  <path d="M-17 25q17-13 34 0l-4 26h-26z" fill="#a9a0d5"/><path d="M-17 25l-8 20 7 3 10-17m23-6 10 19-7 4-11-18" fill="#a9a0d5"/>
+                  <path d="M-9 51l-2 12m20-12 2 12" stroke="#524535" stroke-width="5" stroke-linecap="round"/>
+                  <circle cx="18" cy="29" r="8" fill="none" stroke="#f0e2ca" stroke-width="3"/><path d="M24 35l7 7" stroke="#f0e2ca" stroke-width="3"/>
+                  <rect x="-40" y="-25" width="80" height="17" rx="8" fill="#202521" stroke="#a9a0d5" stroke-width="1"/>
+                  <text x="0" y="-13" text-anchor="middle" fill="#f3e7d3" font-size="9" font-family="DM Mono, monospace">SAGE · QUALITY</text>
+                  <circle class="agent-indicator" cx="32" cy="3" r="4" fill="#87c79d"/>
+                </g>
+                <g class="agent agent-cleaner" data-agent="cleaner" transform="translate(236 326)">
+                  <ellipse class="agent-glow" cx="0" cy="37" rx="24" ry="14"/>
+                  <ellipse class="agent-shadow" cx="0" cy="54" rx="17" ry="7"/>
+                  <circle cx="0" cy="7" r="12" fill="#c48b68"/><path d="M-12 4q12-17 24 0v-5q-12-12-24 0z" fill="#3d332a"/>
+                  <path d="M-17 25q17-13 34 0l-4 26h-26z" fill="#83b8d0"/><path d="M-17 25l-8 20 7 3 10-17m23-6 10 19-7 4-11-18" fill="#83b8d0"/>
+                  <path d="M-9 51l-2 12m20-12 2 12" stroke="#524535" stroke-width="5" stroke-linecap="round"/>
+                  <path d="M24 26l5 22m-8 0h14" stroke="#d9cfb8" stroke-width="2.5" stroke-linecap="round"/>
+                  <rect x="-34" y="-25" width="68" height="17" rx="8" fill="#202521" stroke="#83b8d0" stroke-width="1"/>
+                  <text x="0" y="-13" text-anchor="middle" fill="#f3e7d3" font-size="9" font-family="DM Mono, monospace">ASH · CLEANER</text>
+                  <circle class="agent-indicator" cx="26" cy="3" r="4" fill="#87c79d"/>
+                </g>
+                <g class="agent agent-cashier" data-agent="cashier" transform="translate(747 248)">
+                  <ellipse class="agent-glow" cx="0" cy="37" rx="23" ry="14"/>
+                  <ellipse class="agent-shadow" cx="0" cy="54" rx="16" ry="7"/>
+                  <circle cx="0" cy="7" r="12" fill="#c88a69"/><path d="M-12 4q12-17 24 0v-5q-12-12-24 0z" fill="#49352b"/>
+                  <path d="M-17 25q17-13 34 0l-4 26h-26z" fill="#e68e83"/><path d="M-17 25l-8 20 7 3 10-17m23-6 10 19-7 4-11-18" fill="#e68e83"/>
+                  <path d="M-9 51l-2 12m20-12 2 12" stroke="#524535" stroke-width="5" stroke-linecap="round"/>
+                  <rect x="-34" y="-25" width="68" height="17" rx="8" fill="#202521" stroke="#e68e83" stroke-width="1"/>
+                  <text x="0" y="-13" text-anchor="middle" fill="#f3e7d3" font-size="9" font-family="DM Mono, monospace">NICO · CASHIER</text>
+                  <circle class="agent-indicator" cx="26" cy="3" r="4" fill="#87c79d"/>
+                </g>
+                <g class="steam steam-one" fill="none" stroke="#eee1ca" stroke-width="2" opacity=".7"><path d="M414 153q-7-11 0-19t0-17"/><path d="M433 150q-7-11 0-19t0-17"/></g>
+                <g class="scene-labels" fill="#f1dfc4" font-family="DM Mono, monospace" font-size="9" letter-spacing="1.4">
+                  <text x="363" y="250" opacity=".8">ESPRESSO BAR</text>
+                  <text x="560" y="390" opacity=".8">QUALITY CHECK</text>
+                  <text x="148" y="395" opacity=".8">RINSE STATION</text>
+                  <text x="715" y="326" opacity=".8">REGISTER</text>
+                </g>
+              </svg>
